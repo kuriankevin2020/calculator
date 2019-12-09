@@ -1,4 +1,4 @@
-package com.kevin.calculator;
+package com.kevin;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
