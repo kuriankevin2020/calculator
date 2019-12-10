@@ -12,8 +12,4 @@ public interface iBasicCalculator {
 
 	public double reminder(double a, double b);
 
-	public double absolute(double a);
-
-	public double average(double a, double[] arr);
-
 }

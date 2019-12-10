@@ -49,22 +49,4 @@ public class BasicCalculatorTest {
 		double result = calculator.reminder(a, b);
 		Assert.assertEquals(1.0, result, 0);
 	}
-
-	@Test
-	public void testAbsolute() {
-		double a = -20.0;
-		iBasicCalculator calculator = new BasicCalculator();
-		double result = calculator.absolute(a);
-		Assert.assertEquals(20.0, result, 0);
-	}
-
-	@Test
-	public void testAverage() {
-		double a = 5.0;
-		double[] arr = { 10.0, 20.0, 30.0, 40.0, 50.0 };
-		iBasicCalculator calculator = new BasicCalculator();
-		double result = calculator.average(a, arr);
-		Assert.assertEquals(30.0, result, 0);
-	}
-
 }
